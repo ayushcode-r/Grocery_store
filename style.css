@@ -1,0 +1,25 @@
+.navbar {
+    background-color:white;
+    overflow: hidden;
+    }
+    
+    .navbar a {
+    float: left;
+    color: black;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:larger;
+    }
+
+    .navbar-right{
+      float:right;
+    }
+    .navbar a:hover {
+    background-color: black;
+    color: white;
+    } 
+    *{
+      border-radius: 10px;
+    }
