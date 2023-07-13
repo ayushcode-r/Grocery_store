@@ -1,25 +1,80 @@
 .navbar {
-    background-color:white;
-    overflow: hidden;
-    }
-    
-    .navbar a {
-    float: left;
-    color: black;
-    padding: 5px 15px;
-    text-decoration: none;
-    border-radius: 10px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size:larger;
-    }
+  background-color: white;
+  overflow: hidden;
+}
 
-    .navbar-right{
-      float:right;
-    }
-    .navbar a:hover {
-    background-color: black;
-    color: white;
-    } 
-    *{
-      border-radius: 10px;
-    }
+.navbar a {
+  float: left;
+  color: rgb(69, 75, 72);
+  padding: 5px 15px;
+  text-decoration: none;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+
+}
+
+.navbar-right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: rgb(97, 88, 88);
+  color: white;
+}
+
+* {
+  border-radius: 10px;
+ 
+}
+
+.grocery{
+  display:flex;
+  justify-content:space-evenly;
+}
+
+.container{
+  max-width:1300px;
+  margin:auto;
+  padding-left:25;
+  padding-right:25px;
+}
+
+.row{
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+.text-size{
+  font-size:xx-large;
+  color:darkgreen;
+}
+
+.button{
+  display:inline-block;
+  background-color:darkgreen;
+  color:aliceblue;
+  text-decoration: none;
+}
+
+.button:hover{
+  background-color:rgb(160, 236, 160);
+  color:darkgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
