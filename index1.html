@@ -1,56 +1,214 @@
 <!doctype html>
 <html>
-    <head>
-        <title>groceries page</title>
-        <link rel="stylesheet" href="style1.css">
-    </head>
-    <body>
-        <h1>Groceries</h1>
-        <input id="search" type="text" placeholder="search">
-        <div class="grocery1">
-            <h2>Fruits</h2>
-            <div class="grocery2">
-                <img src="orange.jpg" width="380" height="300">
-                <p>orange</p>
-            </div>
-            <div class="grocery2">
-                <img src="apple.jpg" width="380" height="300">
-                <p>apple</p>
-            </div>
-            <div class="grocery2">
-                <img src="banana.jpg" width="380" height="300">
-                <p>banana</p>
-            </div>
-        </div>
-        <div class="grocery1">
-            <h2>vegetable</h2>
-            <div class="grocery2">
-                <img src="peas.jpg" width="380" height="300">
-                <p>peas</p>
-            </div>
-            <div class="grocery2">
-                <img src="potato.jpg" width="380" height="300">
-                <p>potato</p>
-            </div>
-            <div class="grocery2">
-                <img src="broccoli.jpg" width="380" height="300">
-                <p>broccoli</p>
-            </div>
-        </div>
-        <div class="grocery1">
-            <h2>dairy</h2>
-            <div class="grocery2">
-                <img src="milk.jpg" width="380" height="300">
-                <p>milk</p>
-            </div>
-            <div class="grocery2">
-                <img src="yogurt.jpg" width="380" height="300">
-                <p>yogurt</p>
-            </div>
-            <div class="grocery2">
-                <img src="cheese.jpg" width="380" height="300">
-                <p>cheese</p>
-            </div>
-        </div>
-    </body>
+
+<head>
+  <title>Product page</title>
+  <link rel="stylesheet" href="style1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+  <div class="navbar">
+    <input type="checkbox" id="check" name="" value="">
+<label for="check" id="checkbtn">
+  <i class="fa fa-bars"></i>
+</label>
+   <label class="logo">
+        <img src="logo1.jpg" width="50" height="50" >
+    </label>
+    <ul>
+        <li><a href="#Vegetable">Vegetables</a></li>
+        <li><a href="#Juices">Juices</a></li>
+        <li><a href="#Cookies">Cookies</a></li>
+        <li><a href="#About us">About us</a></li>
+        <li><a href="#Cart"><i class="fa fa-shopping-cart"></i></a></li>
+    </ul>
+
+</div>
+  <h1>Groceries</h1>
+  <div class="product-sort">
+    <input id="search" type="text" placeholder="Search Products">
+    <select>
+      <option>Default sorting</option>
+      <option>sort by popularity</option>
+      <option>sort by latest</option>
+      <option>sort by price: high to low</option>
+      <option>sort by price:low to high</option>
+    </select>
+
+  </div>
+  <h2>FRUITS</h2>
+  <div class="grocery1">
+    <div class="grocery2">
+      <img src="orange.jpg" width="405" height="300">
+      <h4>Orange</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+      </div>
+      <p>$20</p>
+    </div>
+    <div class="grocery2">
+      <img src="apple.jpg" width="405" height="300">
+      <h4>Apple</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$50</p>
+    </div>
+    <div class="grocery2">
+      <img src="banana.jpg" width="405" height="300">
+      <h4>Banana</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$40</p>
+    </div>
+  </div>
+  <h2>VEGETABLE</h2>
+  <div class="grocery1">
+    <div class="grocery2">
+      <img src="peas.jpg" width="405" height="300">
+      <h4>Peas</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$70</p>
+    </div>
+    <div class="grocery2">
+      <img src="potato.jpg" width="405" height="300">
+      <h4>Potato</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$90</p>
+    </div>
+    <div class="grocery2">
+      <img src="broccoli.jpg" width="405" height="300">
+      <h4>Broccoli</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$30</p>
+    </div>
+  </div>
+  <h2>DAIRY</h2>
+  <div class="grocery1">
+    <div class="grocery2">
+      <img src="milk.jpg" width="405" height="300">
+      <h4>Milk</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$50</p>
+    </div>
+    <div class="grocery2">
+      <img src="yogurt.jpg" width="405" height="300">
+      <h4>Yogurt</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$50</p>
+    </div>
+    <div class="grocery2">
+      <img src="cheese.jpg" width="405" height="300">
+      <h4>Cheese</h4>
+      <div class="rating">
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+      </div>
+      <p>$100</p>
+    </div>
+  </div>
+
+  <div class="page-btn">
+
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>&#8594;</span>
+
+
+  </div>
+
+
+  <div class="footer">
+    <div class="row">
+
+      <div class="col-3">
+        <h1>Download our app for ios and android </h1>
+        <img src="app-store.png">
+        <img src="play-store.png">
+        <h3>Site links</h3>
+        <ul>
+          <li>Privacy policy</li>
+          <li>Shipping details</li>
+          <li>offer coupons</li>
+          <li>Terms and Conditions</li>
+
+        </ul>
+      </div>
+      <div class="col-3">
+        <h3> Quick links</h3>
+        <ul>
+          <li>About</li>
+          <li>Cart</li>
+          <li>Checkout</li>
+          <li>Home</li>
+          <li>Shop</li>
+        </ul>
+      </div>
+      <div class="col-3">
+        <p>Our purpose is to deliver the best quality goceries at the doorstep in all over the world </p>
+        <h3>Follow us on</h3>
+        <ul>
+          <li>Instagram</li>
+          <li>Facebook</li>
+          <li>Twiter</li>
+          <li>Youtube</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">Copyright 2023 | Grocery Store</p>
+  </div>
+</body>
+
 </html>
