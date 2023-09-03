@@ -1,3 +1,6 @@
+
+
+
 body{
   font-family: 'Roboto', sans-serif;
 }
@@ -129,7 +132,7 @@ display:none;
 .bar{
   background:radial-gradient(#c1e4c1,	#eceee8);
    padding: 20px;
-   margin: 20px 0px;
+   margin: 20px 0px
 }
 
 .bar h1{
@@ -140,6 +143,7 @@ display:none;
 
 .col-1{
   flex-direction:column;
+  text-align: center;
 }
 
 .col-1 img{
@@ -150,6 +154,10 @@ display:none;
 .col-1 img:hover{
  
   transform:scale(0.9);
+}
+.col-1 a{
+  text-decoration: none;
+  color:#050311
 }
 
 
@@ -185,12 +193,12 @@ display:none;
 
 .testimonial  .row :hover{
   background-color: white;
-  transform:scale(0.9);
+  transform:scale(0.9)
 }
 
 .testimonial h1{
   text-align: center;
-  color:#1e680c;
+  color:#1e680c
 }
 
 .col-2 img{
@@ -220,6 +228,7 @@ display:none;
   color:white;
   padding:20px 20px;
   border-radius: 0%;
+  width:100%;
  
 }
 
@@ -230,18 +239,6 @@ ul{
 .copyright{
   text-align: center;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
