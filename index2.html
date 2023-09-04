@@ -3,14 +3,36 @@
     <head>
         <title>checkout</title>
         <link rel="stylesheet" href="style2.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
     </head>
     <body>
-        <h2 style="text-align:center;">CHECKOUT </h2>
+        <div class="navbar">
+            <input type="checkbox" id="check" name="" value="">
+        <label for="check" id="checkbtn">
+          <i class="fa fa-bars"></i>
+        </label>
+           <label class="logo" id="home">
+                <img src="logo1.jpg" width="50" height="50" >
+            </label>
+            <ul>
+                <li><a href="broccoli-details.html">Vegetables</a></li>
+                <li><a href="milk-details.html">Juices</a></li>
+                <li><a href="biscuits-details.html">Cookies</a></li>
+                <li><a href="#About us">About us</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>
+            </ul>
+        
+        </div>
+        
+        <h2>CHECKOUT </h2>
         <form>
             <fieldset>
                 <legend>Billing details</legend>
                 <label for="fname">First Name</label><br>
-                <input type="text" id="fname"><br><br><br><br>
+                <input type="text" id="fname"><br><br><br>
                 <label for="lname">Last Name</label><br>
                 <input type="text" id="lname"><br><br><br>
                 Gender<br>
@@ -18,7 +40,7 @@
                 <input type="radio" name="gender" value="female">Female<br>
                 <input type="radio" name="gender" value="other">Other<br><br><br>
                 <label for="email">Email</label><br>
-                <input type="text" id="email" placeholder="abc@gmail.com"><br><br>
+                <input type="text" id="email" placeholder="abc@gmail.com"><br><br><br>
                 Country<br>
                 <select name="select">
                 <option  value="india">India</option>
@@ -26,13 +48,25 @@
                 <option value="male">United states</option>
                 <option value="iran">Iran</option>
                 <option value="indonesia">Indonesia</option>
-                </select><br><br>
+                </select><br><br><br>
+                Payment Method<br>
+                <input type="radio" name="payment method" value="cash on delivery">Cash on delivery<br>
+                <input type="radio" name="payment method" value="credit card">Credir Card<br>
+                <input type="radio" name="payment method" value="upi">UPI<br>
+                <input type="radio" name="payment method" value="wallet">Wallet<br><br><br>
                 Address<br>
                 <textarea placeholder="type here..." rows="5" cols="50"></textarea><br><br>
                 <label for="phone">Phone</label><br>
                 <input type="text" id="phone"><br><br><br>
+                
             </fieldset><br><br>
-            <input type="submit" value="continue" autofocus >
+            <button type="submit">submit</button>
         </form>
+        <script>
+            document.getElementById('home').addEventListener('click',function(){
+              window.location.href='index.html'
+            })
+      
+          </script>
     </body>
 </html>
