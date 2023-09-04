@@ -112,7 +112,9 @@ body,html{
     justify-content:space-evenly;
   align-items:center;
 }
-
+grocery2{
+    text-align:center;
+}
 
 .grocery2 img {
     box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.2);
