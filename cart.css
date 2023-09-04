@@ -1,0 +1,114 @@
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  *{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+  
+  }
+  body,html{
+    width:100%;
+    height:100%;
+  }
+  
+  .navbar{
+    width:100%;
+    height:80px;
+    background-color: rgb(116, 199, 107);
+  }
+  
+  .logo img{
+    margin:15px 30px;
+   
+  }
+  
+  .navbar ul{
+    float:right;
+    list-style-type:none;
+  }
+  
+  .navbar ul li{
+  display:inline-block;
+  line-height: 80px;
+  }
+  .navbar ul li a{
+  font-size:20px;
+  padding:8px 20px;
+  text-decoration: none;
+  color:black;
+  
+  }
+  
+  .navbar ul li a:hover{
+    background-color: darkgreen;
+    color:white;
+  }
+  
+  
+  #checkbtn{
+  float: right;
+  line-height: 80px;
+  font-size: 25px;
+  display:none; 
+  padding:0px 8px;
+  }
+  #check{
+  display:none;
+  }
+  #check:checked ~ ul{
+    left:0%
+  }
+  
+  @media(max-width:655px){
+    #checkbtn{
+        display: block;
+    }
+    .navbar ul{
+        width:100%;
+        height:100vh;
+        display: block;
+        position:fixed;
+        top:80px;
+        left:100%;
+        background-color: rgb(39, 148, 26);
+        transition:0.5s
+    }
+    .navbar ul li{
+        display: block;
+        text-align: center;
+        line-height: 40px;
+        margin:20px;
+       
+  }
+  }
+
+ #cart-container table thead td {
+  background-color: crimson;
+  color:aliceblue;
+ }
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #050311;
+    color:white;
+    padding:20px 20px;
+    border-radius: 0%;
+    width:100%;
+   
+  }
+  
+  ul{
+    list-style-type:none;
+  }
+  
+  .copyright{
+    text-align: center;
+  }
