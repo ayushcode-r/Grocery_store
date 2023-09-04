@@ -104,6 +104,192 @@ body,html{
   
 }
 
+.grocery1 {
+
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+  align-items:center;
+}
+
+.grocery2{
+    text-align: center;
+}
+
+
+.grocery2 img {
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.grocery2 a{
+    text-decoration: none;
+    color:#050311;
+}
+
+.rating .fa {
+    color: gold;
+}
+
+.grocery2 img:hover {
+    transform: scale(0.9);
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+
+.page-btn span {
+    display: inline-block;
+    padding: 10px 10px;
+    border: 1px solid #050311;
+    border-radius: 0%;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.page-btn :hover {
+    background-color: #050311;
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.col-3 {
+    flex-basis: 30%;
+    align-items: baseline;
+}
+
+.footer {
+    background-color: #050311;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 0%;
+    width:100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.copyright {
+    text-align: center;
+}*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+body,html{
+    width:100%;
+    height:100%;
+}
+
+.navbar{
+    width:100%;
+    height:80px;
+    background-color: rgb(116, 199, 107);
+}
+
+.logo img{
+    margin:15px 30px;
+   
+}
+
+.navbar ul{
+    float:right;
+    list-style-type:none;
+}
+
+.navbar ul li{
+ display:inline-block;
+ line-height: 80px;
+}
+ .navbar ul li a{
+ font-size:20px;
+ padding:8px 20px;
+ text-decoration: none;
+ color:black;
+
+}
+
+.navbar ul li a:hover{
+    background-color: darkgreen;
+    color:white;
+}
+
+
+#checkbtn{
+  float: right;
+  line-height: 80px;
+  font-size: 25px;
+  display:none; 
+  padding:0px 8px;
+}
+#check{
+  display:none;
+}
+#check:checked ~ ul{
+    left:0%
+}
+
+@media(max-width:655px){
+    #checkbtn{
+        display: block;
+    }
+    .navbar ul{
+        width:100%;
+        height:100vh;
+        display: block;
+        position:fixed;
+        top:80px;
+        left:100%;
+        background-color: rgb(39, 148, 26);
+        transition:0.5s
+    }
+    .navbar ul li{
+        display: block;
+        text-align: center;
+        line-height: 40px;
+        margin:20px;
+       
+  }
+}
+  
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  
+
+.product-sort {
+    display: flex;
+    justify-content: space-between;
+
+}
+.product-sort input{
+    margin-left: 40px;
+}
+
+.product-sort select{
+    margin-right: 40px;
+}
+
+.groceries {
+   margin-left: 40px;
+  
+}
 
 .grocery1 {
 
@@ -112,9 +298,385 @@ body,html{
     justify-content:space-evenly;
   align-items:center;
 }
+
 .grocery2{
-    text-align:center;
+    text-align: center;
 }
+
+
+.grocery2 img {
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.grocery2 a{
+    text-decoration: none;
+    color:#050311;
+}
+
+.rating .fa {
+    color: gold;
+}
+
+.grocery2 img:hover {
+    transform: scale(0.9);
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+
+.page-btn span {
+    display: inline-block;
+    padding: 10px 10px;
+    border: 1px solid #050311;
+    border-radius: 0%;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.page-btn :hover {
+    background-color: #050311;
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.col-3 {
+    flex-basis: 30%;
+    align-items: baseline;
+}
+
+.footer {
+    background-color: #050311;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 0%;
+    width:100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.copyright {
+    text-align: center;
+}*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+body,html{
+    width:100%;
+    height:100%;
+}
+
+.navbar{
+    width:100%;
+    height:80px;
+    background-color: rgb(116, 199, 107);
+}
+
+.logo img{
+    margin:15px 30px;
+   
+}
+
+.navbar ul{
+    float:right;
+    list-style-type:none;
+}
+
+.navbar ul li{
+ display:inline-block;
+ line-height: 80px;
+}
+ .navbar ul li a{
+ font-size:20px;
+ padding:8px 20px;
+ text-decoration: none;
+ color:black;
+
+}
+
+.navbar ul li a:hover{
+    background-color: darkgreen;
+    color:white;
+}
+
+
+#checkbtn{
+  float: right;
+  line-height: 80px;
+  font-size: 25px;
+  display:none; 
+  padding:0px 8px;
+}
+#check{
+  display:none;
+}
+#check:checked ~ ul{
+    left:0%
+}
+
+@media(max-width:655px){
+    #checkbtn{
+        display: block;
+    }
+    .navbar ul{
+        width:100%;
+        height:100vh;
+        display: block;
+        position:fixed;
+        top:80px;
+        left:100%;
+        background-color: rgb(39, 148, 26);
+        transition:0.5s
+    }
+    .navbar ul li{
+        display: block;
+        text-align: center;
+        line-height: 40px;
+        margin:20px;
+       
+  }
+}
+  
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  
+
+.product-sort {
+    display: flex;
+    justify-content: space-between;
+
+}
+.product-sort input{
+    margin-left: 40px;
+}
+
+.product-sort select{
+    margin-right: 40px;
+}
+
+.groceries {
+   margin-left: 40px;
+  
+}
+
+.grocery1 {
+
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+  align-items:center;
+}
+
+.grocery2{
+    text-align: center;
+}
+
+
+.grocery2 img {
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+.grocery2 a{
+    text-decoration: none;
+    color:#050311;
+}
+
+.rating .fa {
+    color: gold;
+}
+
+.grocery2 img:hover {
+    transform: scale(0.9);
+}
+
+
+h2 {
+    text-align: center;
+}
+
+
+
+.page-btn span {
+    display: inline-block;
+    padding: 10px 10px;
+    border: 1px solid #050311;
+    border-radius: 0%;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.page-btn :hover {
+    background-color: #050311;
+    color: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.col-3 {
+    flex-basis: 30%;
+    align-items: baseline;
+}
+
+.footer {
+    background-color: #050311;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 0%;
+    width:100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.copyright {
+    text-align: center;
+}*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+body,html{
+    width:100%;
+    height:100%;
+}
+
+.navbar{
+    width:100%;
+    height:80px;
+    background-color: rgb(116, 199, 107);
+}
+
+.logo img{
+    margin:15px 30px;
+   
+}
+
+.navbar ul{
+    float:right;
+    list-style-type:none;
+}
+
+.navbar ul li{
+ display:inline-block;
+ line-height: 80px;
+}
+ .navbar ul li a{
+ font-size:20px;
+ padding:8px 20px;
+ text-decoration: none;
+ color:black;
+
+}
+
+.navbar ul li a:hover{
+    background-color: darkgreen;
+    color:white;
+}
+
+
+#checkbtn{
+  float: right;
+  line-height: 80px;
+  font-size: 25px;
+  display:none; 
+  padding:0px 8px;
+}
+#check{
+  display:none;
+}
+#check:checked ~ ul{
+    left:0%
+}
+
+@media(max-width:655px){
+    #checkbtn{
+        display: block;
+    }
+    .navbar ul{
+        width:100%;
+        height:100vh;
+        display: block;
+        position:fixed;
+        top:80px;
+        left:100%;
+        background-color: rgb(39, 148, 26);
+        transition:0.5s
+    }
+    .navbar ul li{
+        display: block;
+        text-align: center;
+        line-height: 40px;
+        margin:20px;
+       
+  }
+}
+  
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  
+
+.product-sort {
+    display: flex;
+    justify-content: space-between;
+
+}
+.product-sort input{
+    margin-left: 40px;
+}
+
+.product-sort select{
+    margin-right: 40px;
+}
+
+.groceries {
+   margin-left: 40px;
+  
+}
+
+.grocery1 {
+
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+  align-items:center;
+}
+
+.grocery2{
+    text-align: center;
+}
+
 
 .grocery2 img {
     box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.2);
