@@ -16,19 +16,19 @@
 <label for="check" id="checkbtn">
   <i class="fa fa-bars"></i>
 </label>
-   <label class="logo">
+   <label class="logo" id="home">
         <img src="logo1.jpg" width="50" height="50" >
     </label>
     <ul>
-        <li><a href="#Vegetable">Vegetables</a></li>
-        <li><a href="#Juices">Juices</a></li>
-        <li><a href="#Cookies">Cookies</a></li>
-        <li><a href="#About us">About us</a></li>
-        <li><a href="#Cart"><i class="fa fa-shopping-cart"></i></a></li>
+      <li><a href="broccoli-details.html">Vegetables</a></li>
+      <li><a href="milk-details.html">Juices</a></li>
+      <li><a href="biscuits-details.html">Cookies</a></li>
+      <li><a href="#About us">About us</a></li>
+      <li><a href="cart.html"><i class="fa fa-shopping-cart"></i></a></li>
     </ul>
 
 </div>
-  <h1>Groceries</h1>
+  <h1 class="groceries">Groceries</h1>
   <div class="product-sort">
     <input id="search" type="text" placeholder="Search Products">
     <select>
@@ -42,9 +42,9 @@
   </div>
   <h2>FRUITS</h2>
   <div class="grocery1">
-    <div class="grocery2">
+    <div class="grocery2"><a href="orange-details.html">
       <img src="orange.jpg" width="405" height="300">
-      <h4>Orange</h4>
+      <h4>Orange</h4></a>
       <div class="rating">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -54,9 +54,9 @@
       </div>
       <p>$20</p>
     </div>
-    <div class="grocery2">
+    <div class="grocery2"> <a href="apple-details.html">
       <img src="apple.jpg" width="405" height="300">
-      <h4>Apple</h4>
+      <h4>Apple</h4></a> 
       <div class="rating">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -66,9 +66,9 @@
       </div>
       <p>$50</p>
     </div>
-    <div class="grocery2">
+    <div class="grocery2"><a href="banana-details.html">
       <img src="banana.jpg" width="405" height="300">
-      <h4>Banana</h4>
+      <h4>Banana</h4></a>
       <div class="rating">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -81,9 +81,9 @@
   </div>
   <h2>VEGETABLE</h2>
   <div class="grocery1">
-    <div class="grocery2">
+    <div class="grocery2"><a href="peas-details.html">
       <img src="peas.jpg" width="405" height="300">
-      <h4>Peas</h4>
+      <h4>Peas</h4></a>
       <div class="rating">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -93,9 +93,9 @@
       </div>
       <p>$70</p>
     </div>
-    <div class="grocery2">
+    <div class="grocery2"><a href="potato-details.html">
       <img src="potato.jpg" width="405" height="300">
-      <h4>Potato</h4>
+      <h4>Potato</h4></a>
       <div class="rating">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -105,9 +105,9 @@
       </div>
       <p>$90</p>
     </div>
-    <div class="grocery2">
+    <div class="grocery2"><a href="broccoli-details.html">
       <img src="broccoli.jpg" width="405" height="300">
-      <h4>Broccoli</h4>
+      <h4>Broccoli</h4></a>
       <div class="rating">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -120,9 +120,9 @@
   </div>
   <h2>DAIRY</h2>
   <div class="grocery1">
-    <div class="grocery2">
+    <div class="grocery2"><a href="milk-details.html">
       <img src="milk.jpg" width="405" height="300">
-      <h4>Milk</h4>
+      <h4>Milk</h4></a>
       <div class="rating">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -132,9 +132,9 @@
       </div>
       <p>$50</p>
     </div>
-    <div class="grocery2">
+    <div class="grocery2"><a href="yogurt">
       <img src="yogurt.jpg" width="405" height="300">
-      <h4>Yogurt</h4>
+      <h4>Yogurt</h4></a>
       <div class="rating">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -144,9 +144,9 @@
       </div>
       <p>$50</p>
     </div>
-    <div class="grocery2">
+    <div class="grocery2"><a href="chesse-details.html">
       <img src="cheese.jpg" width="405" height="300">
-      <h4>Cheese</h4>
+      <h4>Cheese</h4></a>
       <div class="rating">
         <i class="fa fa-star"></i>
         <i class="fa fa-star"></i>
@@ -209,6 +209,13 @@
     <hr>
     <p class="copyright">Copyright 2023 | Grocery Store</p>
   </div>
+
+  <script>
+    document.getElementById('home').addEventListener('click',function(){
+      window.location.href='index.html'
+    })
+
+  </script>
 </body>
 
 </html>
