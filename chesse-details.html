@@ -16,7 +16,7 @@
         <label for="check" id="checkbtn">
             <i class="fa fa-bars"></i>
         </label>
-        <label class="logo">
+        <label class="logo" id="home">
             <img src="logo1.jpg" width="50" height="50">
         </label>
         <ul>
@@ -149,6 +149,12 @@
         <hr>
         <p class="copyright">Copyright 2023 | Grocery Store</p>
     </div>
+    <script>
+        document.getElementById('home').addEventListener('click',function(){
+          window.location.href='index.html'
+        })
+  
+      </script>
 </body>
 
 </html>
